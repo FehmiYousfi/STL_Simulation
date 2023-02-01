@@ -1,7 +1,7 @@
 import os 
 import vtk
 from vtk.util import numpy_support
-path = "/home/fehmi_yousfi/Desktop/Python_STL/partitioned_STL"
+path = os.getcwd()
 parts_list = os.listdir(path)
 reader_list = []
 mapper_list = []
